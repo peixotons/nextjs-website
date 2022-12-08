@@ -28,7 +28,6 @@ export default function Header({}: Props) {
           fgColor="#0e76a8 "
           bgColor="transparent"
           className="hover:opacity-60"
-
         />
         <SocialIcon
           url="https://github.com/peixotons"
@@ -41,14 +40,12 @@ export default function Header({}: Props) {
           fgColor="#E4405F"
           bgColor="transparent"
           className="hover:opacity-60"
-
         />
         <SocialIcon
           url="https://twitter.com/Peixotons"
           fgColor="#1DA1F2"
           bgColor="transparent"
           className="hover:opacity-60"
-
         />
       </motion.div>
       <motion.div
@@ -70,7 +67,6 @@ export default function Header({}: Props) {
           network="email"
           fgColor="gray"
           bgColor="transparent"
-          
         />
         <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
           Get in Touch

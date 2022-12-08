@@ -21,7 +21,7 @@ export default function Hero({}: Props) {
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="https://avatars.githubusercontent.com/u/65079483?s=400&u=388846a8a79a4211adec28eecea6a3e28d9d3163&v=4"
-        alt=""
+        alt="Image"
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
