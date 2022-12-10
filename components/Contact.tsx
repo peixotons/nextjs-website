@@ -22,30 +22,30 @@ function Contact({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[15px] text-gray-500 text-[20px] md:text-2xl">
         Contact
       </h3>
-      <div className="flex flex-col w-fit mt-10 space-y-10">
+      <div className="flex flex-col w-fit mt-20 space-y-10">
         <h4 className="text-2xl md:text-4xl font-semibold text-center">
-          I have just what u need.{" "}
-          <span className="decoration-[#f7ab0a]/50 underline">Lets Chat</span>
+          Let&apos;s {" "}
+          <span className="decoration-[#f7ab0a]/50 underline">Chat</span>
         </h4>
         <div className="space-y-10">
           <div className="flex items-center space-x-5">
             <PhoneIcon className="text-[#F7Ab0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+55 (84)99192-6321</p>
+            <p className="md:text-2xl">+55 (84)99192-6321</p>
           </div>
           <div className="flex items-center space-x-5">
             <EnvelopeIcon className="text-[#F7Ab0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">bielpcosta@hotmail.com</p>
+            <p className="md:text-2xl">bielpcosta@hotmail.com</p>
           </div>
           <div className="flex items-center space-x-5">
             <MapPinIcon className="text-[#F7Ab0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Brazil</p>
+            <p className="md:text-2xl">Brazil</p>
           </div>
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col space-y-2 w-fit mx-auto"
         >
-          <div className="flex space-x-2">
+          <div className="flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-2">
             <input
               {...register("name")}
               placeholder="Name"
