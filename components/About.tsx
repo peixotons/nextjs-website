@@ -26,7 +26,7 @@ export default function About({}: Props) {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         src="https://scontent.fnat16-1.fna.fbcdn.net/v/t1.6435-9/30440729_926810967443962_4697513612623740928_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeHnoFntN4pPT846pglqd-QpHJAhEIX5ITEckCEQhfkhMWZemBMU5PwZvMbJSPSx20FxZa1VGthGtCHaakDD6ric&_nc_ohc=UsDK5fJYhtsAX-pm_6M&_nc_ht=scontent.fnat16-1.fna&oh=00_AfAOFyR6H3iSUcl6fXKOl4D21u-d57XIFoRgVzY7bYJfkw&oe=63BC7358"
-        className="-mb-[140px] w-[200px] md:mb-0 flex-shrink-0 w-55 h-55 rounded-full object-cover
+        className="-mb-[140px] w-[180px] md:mb-0 flex-shrink-0 w-55 h-55 rounded-full object-cover
         md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[400px]"
       />
       <div className="space-y-7 px-0 md:px-10">
