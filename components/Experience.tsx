@@ -14,10 +14,10 @@ export default function Experience({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[15px] text-gray-500 text-2xl">
         Experience
       </h3>
-      <div className="relative w-fit flex items-center justify-center overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar h-[90%] scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
+      <div className="relative w-full flex items-center justify-center overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar h-[90%] scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
         <article
           className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
-    w-[300px] h-[650px] md:w-[700px] md:h-[600px]  xl:h-[600px] snap-center bg-[#292929] p-5 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
+    w-[300px] h-[550px] md:w-[700px] md:h-[600px]  xl:h-[600px] snap-center bg-[#292929] p-5 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
         >
           <motion.img
             initial={{ y: -100, opacity: 0 }}
@@ -68,7 +68,7 @@ export default function Experience({}: Props) {
               />
               <img
                 className="h-7 w-7 md:h-10 md:w-10 rounded-full"
-                src="https://cdn.worldvectorlogo.com/logos/jquery-1.svg"
+                src="https://cdn.iconscout.com/icon/free/png-256/jquery-8-1175153.png"
                 alt=""
               />
             </div>
@@ -87,7 +87,6 @@ export default function Experience({}: Props) {
             </ul>
           </div>
         </article>
-        
       </div>
     </motion.div>
   );
