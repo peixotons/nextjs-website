@@ -1,20 +1,22 @@
 import React, { useRef } from "react";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 type Props = {};
 
 function Contact({}: Props) {
-  const form = useRef();
-
+  
+  const form = useRef(null);
+  
   const sendEmail = (e: any) => {
     e.preventDefault();
-
+    const currentForm = form.current;
+    if (currentForm == null) return;
     emailjs
       .sendForm(
         "service_0jnmoxo",
         "template_ay3rmhd",
-        form.current,
+        currentForm,
         "0oq-P0e65x-qUwIt2"
       )
       .then(
@@ -86,7 +88,7 @@ function Contact({}: Props) {
             className="contactInput"
             required
           />
-          <button className="bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg">
+          <button className="bg-[#f7ab0a] py-5 px-10 rounded-md text-black font-bold text-lg" value="Send">
             Submit
           </button>
         </form>
