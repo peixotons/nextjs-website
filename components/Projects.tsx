@@ -5,7 +5,6 @@ import { SocialIcon } from "react-social-icons";
 type Props = {};
 
 function Projects({}: Props) {
-  const projects = [1, 2];
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -31,9 +30,7 @@ function Projects({}: Props) {
           <div className="space-y-10 px-0 md:px-10 max-w-6xl">
             <h4 className="text-2xl md:text-4xl font-semibold text-center">
               React Cripto{" "}
-              <span className="underline decoration-[#f7ab0a]/50">
-                Website
-              </span>
+              <span className="underline decoration-[#f7ab0a]/50">Website</span>
             </h4>
             <div className=" text-center space-x-5">
               <div className="bg-[#f7ab0a] hover:bg-[#f7ab0a]/50 text-white font-bold py-1 px-2 rounded-full inline-flex items-center">
@@ -45,9 +42,7 @@ function Projects({}: Props) {
                   bgColor="transparent"
                 />
 
-                <a href="https://peixotons.github.io/react-api-crypto/">
-                  Demo
-                </a>
+                <a href="https://peixotons.github.io/react-api-crypto/">Demo</a>
               </div>
               <div className="bg-[#f7ab0a] hover:bg-[#f7ab0a]/50 text-white font-bold py-1 px-2 rounded-full inline-flex items-center">
                 <SocialIcon
@@ -56,7 +51,9 @@ function Projects({}: Props) {
                   fgColor="#bd2c00"
                   bgColor="transparent"
                 />
-                <a href="https://github.com/peixotons/react-api-crypto">Github</a>
+                <a href="https://github.com/peixotons/react-api-crypto">
+                  Github
+                </a>
               </div>
             </div>
           </div>
