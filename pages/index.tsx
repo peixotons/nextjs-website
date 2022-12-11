@@ -42,7 +42,7 @@ export default function Home() {
         <Contact />
       </section>
       <Link href="#hero">
-        <footer className="sticky bottom-20 right- w-screen cursor-pointer">
+        <footer className="sticky bottom-36 right- w-screen cursor-pointer">
           <div className="absolute inset-y-0 right-0 w-16">
             <img
               src="https://avatars.githubusercontent.com/u/65079483?s=400&u=388846a8a79a4211adec28eecea6a3e28d9d3163&v=4"
