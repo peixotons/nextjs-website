@@ -34,10 +34,6 @@ export default function Home() {
         <Experience />
       </section>
 
-      <section id="skills" className="snap-start">
-        <Skills />
-      </section>
-
       <section id="projects" className="snap-start">
         <Projects />
       </section>
@@ -46,12 +42,15 @@ export default function Home() {
         <Contact />
       </section>
       <Link href="#hero">
-      <footer className="sticky bottom-5 w-full cursor-pointer">
-        <div className="flex items-center justify-center">
-          <img src="https://avatars.githubusercontent.com/u/65079483?s=400&u=388846a8a79a4211adec28eecea6a3e28d9d3163&v=4" alt="Img"
-          className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" />
-        </div>
-      </footer>
+        <footer className="sticky bottom-5 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <img
+              src="https://avatars.githubusercontent.com/u/65079483?s=400&u=388846a8a79a4211adec28eecea6a3e28d9d3163&v=4"
+              alt="Img"
+              className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+            />
+          </div>
+        </footer>
       </Link>
     </div>
   );
