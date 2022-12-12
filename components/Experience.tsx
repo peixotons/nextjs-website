@@ -17,7 +17,7 @@ export default function Experience({}: Props) {
       <div className="relative w-full flex items-center justify-center overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar h-[90%] scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
         <article
           className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
-    w-[300px] h-[550px] md:w-[700px] md:h-[600px]  xl:h-[600px] snap-center bg-[#292929] p-5 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
+    w-[300px] h-[450px] md:w-[700px] md:h-[600px]  xl:h-[600px] snap-center bg-[#292929] p-5 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
         >
           <motion.img
             initial={{ y: -100, opacity: 0 }}
@@ -75,7 +75,7 @@ export default function Experience({}: Props) {
             <p className="uppercase py-3 text-gray-300 text-center">
               August 2022 - Moment
             </p>
-            <ul className="list-disc space-y-4 ml-5 text-lg">
+            <ul className="list-disc space-y-2 text-sm md:space-y-4 ml-5 md:text-lg">
               <li>Developed systems for the sectors of SESAP.</li>
               <li>
                 Maintained legacy codes, correcting errors and adding new
