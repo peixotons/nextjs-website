@@ -27,10 +27,10 @@ export default function About({}: Props) {
         viewport={{ once: true }}
         src="https://scontent.fnat16-1.fna.fbcdn.net/v/t1.6435-9/30440729_926810967443962_4697513612623740928_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeHnoFntN4pPT846pglqd-QpHJAhEIX5ITEckCEQhfkhMWZemBMU5PwZvMbJSPSx20FxZa1VGthGtCHaakDD6ric&_nc_ohc=UsDK5fJYhtsAX-pm_6M&_nc_ht=scontent.fnat16-1.fna&oh=00_AfAOFyR6H3iSUcl6fXKOl4D21u-d57XIFoRgVzY7bYJfkw&oe=63BC7358"
         className="-mb-[140px] w-fit h-[150px] md:mb-0 flex-shrink-0 w-55 h-55 rounded object-cover
-        md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[400px]"
+        md:rounded-lg md:w-[300px] md:h-fit xl:w-[400px] xl:h-fit"
       />
       <div className="space-y-4 md:space-y-7 px-0 md:px-10">
-        <h4 className="text-[20px] md:text-4xl font-semibold">
+        <h4 className="text-[20px] md:text-2xl xl:text-4xl  font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#f7ab0a]/50">little</span>{" "}
           background
@@ -61,7 +61,7 @@ export default function About({}: Props) {
             Laravel
           </div>
         </div>
-        <p className="text-justify text-[14px] md:text-2xl">
+        <p className="text-justify text-[14px] xl:text-2xl">
           Hello, my name is Gabriel and I started studying programming in 2018
           when{" "}
           <span className="underline decoration-[#f7ab0a]">i was curious</span>{" "}

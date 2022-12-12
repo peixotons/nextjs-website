@@ -25,7 +25,7 @@ function Projects({}: Props) {
             src="https://i.ibb.co/jy6p3KD/reactcripto.png"
             alt="Image Project"
             className="-mb-[20px] w-[400px] md:mb-0 flex-shrink-0 w-55 h-55 object-cover
-              md:rounded-lg md:w-[500px] xl:w-[600px] xl:h-[500px] animate-pulse"
+              md:rounded-lg md:w-[500px] xl:w-fit xl:h-[450px] animate-pulse"
           />
           <div className="space-y-10 px-0 md:px-10 max-w-6xl">
             <h4 className="text-2xl md:text-4xl font-semibold text-center">
