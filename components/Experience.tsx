@@ -73,7 +73,7 @@ export default function Experience({}: Props) {
               />
             </div>
             <p className="uppercase py-3 text-gray-300 text-center">
-              August 2022 - Moment
+              August 2022 - December 2022 <span className="lowercase">(6 Months)</span>
             </p>
             <ul className="list-disc space-y-2 text-sm md:space-y-4 ml-5 md:text-lg">
               <li>Developed systems for the sectors of SESAP.</li>
