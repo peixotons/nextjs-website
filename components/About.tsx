@@ -25,7 +25,7 @@ export default function About({}: Props) {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src="https://scontent.fnat16-1.fna.fbcdn.net/v/t1.6435-9/30440729_926810967443962_4697513612623740928_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeHnoFntN4pPT846pglqd-QpHJAhEIX5ITEckCEQhfkhMWZemBMU5PwZvMbJSPSx20FxZa1VGthGtCHaakDD6ric&_nc_ohc=UsDK5fJYhtsAX-pm_6M&_nc_ht=scontent.fnat16-1.fna&oh=00_AfAOFyR6H3iSUcl6fXKOl4D21u-d57XIFoRgVzY7bYJfkw&oe=63BC7358"
+        src="https://scontent.fnat16-1.fna.fbcdn.net/v/t1.6435-9/30440729_926810967443962_4697513612623740928_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeHnoFntN4pPT846pglqd-QpHJAhEIX5ITEckCEQhfkhMWZemBMU5PwZvMbJSPSx20FxZa1VGthGtCHaakDD6ric&_nc_ohc=7tP54JGS6kgAX-dUq_n&_nc_ht=scontent.fnat16-1.fna&oh=00_AfBMsWmAB1BIxvQ6BLGGznHwwwgE7unRe1pOT4doZXyEtg&oe=63EFA598"
         className="-mb-[140px] w-fit h-[150px] md:mb-0 flex-shrink-0 w-55 h-55 rounded object-cover
         md:rounded-lg md:w-[300px] md:h-fit xl:w-[400px] xl:h-fit"
       />
@@ -73,8 +73,9 @@ export default function About({}: Props) {
           <span className="underline decoration-[#f7ab0a]">
             I knew I had made the right choice
           </span>
-          , I started to have confidence and be able to <span className="underline decoration-[#f7ab0a]">solve problems</span> that I
-          didn&apos;t even come close to before.
+          , I started to have confidence and be able to{" "}
+          <span className="underline decoration-[#f7ab0a]">solve problems</span>{" "}
+          that I didn&apos;t even come close to before.
         </p>
       </div>
     </motion.div>
